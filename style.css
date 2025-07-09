@@ -13,7 +13,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 4;
 }
 
 .logo-explore {
@@ -109,7 +109,7 @@
     height: 790px;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100%;
+    grid-template-rows: 90% 10%;
 }
 
 #hero-section-bgimg {
@@ -372,4 +372,35 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     margin-right: 3px;
+}
+
+.arrow-animation-container {
+    width: 100%;
+    height: 79px;
+    z-index: 3;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-container {
+    width: 48px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    animation-name: bouncing-arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bouncing-arrow {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(16px); }
+    100% { transform: translateY(0); }
+}
+
+#down-arrow {
+    width: 30px;
+    height: 30px;
 }
