@@ -285,3 +285,90 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
 }
+
+.facebook-button {
+    width: 268px;
+    height: 40px;
+    background-color: #1278f3;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#facebook-logo {
+    width: 30px;
+    height: 30px;
+}
+
+#continue-para {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#facebook-link {
+    text-decoration: none;
+}
+
+.tos-section-div {
+    width: 280px;
+    height: 54px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.terms-of-service {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+.tos-links {
+    color: grey;
+}
+
+.tos-links:hover {
+    color: grey;
+}
+
+.div-section-D {
+    width: 464px;
+    margin-top: 10px;
+}
+
+.signup-link-div {
+    width: 464px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.section-D-links {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.business-div {
+    width: 464px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+
+#business-para {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-right: 3px;
+}
